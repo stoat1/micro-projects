@@ -1,0 +1,216 @@
+# depslib dependency file v1.0
+1340009224 source:e:\projects\c\ntfs features\main.cpp
+	<windows.h>
+	<commctrl.h>
+	<vector>
+	<iostream>
+	<cassert>
+	<sstream>
+	<cmath>
+	<set>
+	"dialogs.h"
+	"util.h"
+	"Config.h"
+	"MainWindow.h"
+	"Context.h"
+	"Button.h"
+	"Command.h"
+	"WindowInitializer.h"
+	"version.h"
+
+1339189862 source:e:\projects\c\ntfs features\application.cpp
+	"Application.h"
+	<algorithm>
+	<iostream>
+	<windows.h>
+
+1339176386 e:\projects\c\ntfs features\application.h
+	<stdexcept>
+	<string>
+	<vector>
+	<map>
+
+1339195568 source:e:\projects\c\ntfs features\dialogs.cpp
+	"dialogs.h"
+
+1339195538 e:\projects\c\ntfs features\dialogs.h
+	"windows.h"
+	<string>
+	<stdexcept>
+
+1339177068 e:\projects\c\ntfs features\buttonenabler.h
+	<windows.h>
+
+1339209864 e:\projects\c\ntfs features\util.h
+
+1339191968 source:f:\projects\c\ntfs features\dialogs.cpp
+	"dialogs.h"
+
+1339191938 f:\projects\c\ntfs features\dialogs.h
+	"windows.h"
+	<string>
+	<stdexcept>
+
+1339186262 source:f:\projects\c\ntfs features\application.cpp
+	"Application.h"
+	<algorithm>
+	<iostream>
+	<windows.h>
+
+1339172786 f:\projects\c\ntfs features\application.h
+	<stdexcept>
+	<string>
+	<vector>
+	<map>
+
+1339220612 source:f:\projects\c\ntfs features\main.cpp
+	<windows.h>
+	<commctrl.h>
+	<vector>
+	<iostream>
+	<cassert>
+	<sstream>
+	<cmath>
+	<set>
+	"Application.h"
+	"dialogs.h"
+	"ButtonEnabler.h"
+	"util.h"
+	"DefaultLocalization.h"
+
+1339173468 f:\projects\c\ntfs features\buttonenabler.h
+	<windows.h>
+
+1339206264 f:\projects\c\ntfs features\util.h
+
+1339219358 f:\projects\c\ntfs features\defaultlocalization.h
+	<map>
+
+1340004764 source:e:\projects\c\ntfs features\config.cpp
+	"Config.h"
+	<windows.h>
+	<sstream>
+	<iostream>
+
+1339930774 e:\projects\c\ntfs features\config.h
+	<map>
+	<stdexcept>
+	<windows.h>
+	<ostream>
+
+1339930848 source:e:\projects\c\ntfs features\context.cpp
+	<iostream>
+	"Context.h"
+	"SerialGenerator.h"
+
+1339930661 e:\projects\c\ntfs features\context.h
+	<windows.h>
+	<map>
+	<vector>
+	"Config.h"
+	"ContextObserver.h"
+
+1339866631 e:\projects\c\ntfs features\widget.h
+	<windows.h>
+
+1339847819 e:\projects\c\ntfs features\serialgenerator.h
+	<windows.h>
+
+1339862221 e:\projects\c\ntfs features\windowobservable.h
+	"WindowObserver.h"
+
+1339852563 e:\projects\c\ntfs features\windowobserver.h
+	"WindowEvent.h"
+
+1339914164 e:\projects\c\ntfs features\windowevent.h
+	<windows.h>
+	<ostream>
+
+1339931049 e:\projects\c\ntfs features\button.h
+	<windows.h>
+	<commctrl.h>
+	"Widget.h"
+	"SerialGenerator.h"
+	"Command.h"
+	"MainWindow.h"
+	"ButtonObserver.h"
+
+1339858254 e:\projects\c\ntfs features\command.h
+
+1339919793 e:\projects\c\ntfs features\windowinitializer.h
+	"ResetButton.h"
+	"SaveButton.h"
+	"LoadButton.h"
+	"ListBox.h"
+	"WindowDestructor.h"
+	"ContentPane.h"
+
+1339918737 e:\projects\c\ntfs features\resetbutton.h
+	"Button.h"
+
+1339928950 e:\projects\c\ntfs features\savebutton.h
+	"Button.h"
+	"dialogs.h"
+
+1339864001 e:\projects\c\ntfs features\windowdestructor.h
+	"WindowObserver.h"
+
+1339918672 e:\projects\c\ntfs features\loadbutton.h
+	"Button.h"
+	"dialogs.h"
+
+1339921613 e:\projects\c\ntfs features\listbox.h
+	<vector>
+	"Widget.h"
+	"MainWindow.h"
+
+1340006967 source:e:\projects\c\ntfs features\contentpane.cpp
+	"ContentPane.h"
+	<sstream>
+	<iostream>
+	"ContentPane.h"
+	"SerialGenerator.h"
+	"Context.h"
+
+1339928403 e:\projects\c\ntfs features\contentpane.h
+	"Widget.h"
+	"Config.h"
+	"ContextObserver.h"
+	"MainWindow.h"
+	<vector>
+
+1339924541 e:\projects\c\ntfs features\mainwindow.h
+	<vector>
+	<map>
+	<set>
+	<iostream>
+	<sstream>
+	<stdexcept>
+	"WindowObserver.h"
+	"WindowDestructor.h"
+	"Context.h"
+
+1339885700 e:\projects\c\ntfs features\contextobserver.h
+
+1340006366 source:e:\projects\c\ntfs features\mainwindow.cpp
+	"MainWindow.h"
+	"ResetButton.h"
+	"SaveButton.h"
+	"LoadButton.h"
+	"LangList.h"
+	"ContentPane.h"
+
+1339914165 source:e:\projects\c\ntfs features\windowevent.cpp
+	"WindowEvent.h"
+
+1339917127 e:\projects\c\ntfs features\buttonobserver.h
+
+1339926659 source:e:\projects\c\ntfs features\listbox.cpp
+	"ListBox.h"
+	"SerialGenerator.h"
+
+1340006481 e:\projects\c\ntfs features\langlist.h
+	"ListBox.h"
+
+1340009224 e:\projects\c\ntfs features\version.h
+

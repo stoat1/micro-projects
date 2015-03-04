@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="AbstractMemory.cpp" open="0" top="0" tabpos="7">
+		<Cursor position="127" topLine="0" />
+	</File>
+	<File name="AbstractMemory.h" open="0" top="0" tabpos="8">
+		<Cursor position="311" topLine="1" />
+	</File>
+	<File name="CacheGroup.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="7009" topLine="274" />
+	</File>
+	<File name="CacheGroup.h" open="0" top="0" tabpos="3">
+		<Cursor position="420" topLine="11" />
+	</File>
+	<File name="CachedMemory.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="191" topLine="0" />
+	</File>
+	<File name="CachedMemory.h" open="0" top="0" tabpos="6">
+		<Cursor position="588" topLine="12" />
+	</File>
+	<File name="CachedMemoryTest.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="1190" topLine="24" />
+	</File>
+	<File name="CachedMemoryTest.h" open="0" top="0" tabpos="5">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="CountedMemory.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="454" topLine="0" />
+	</File>
+	<File name="CountedMemory.h" open="0" top="0" tabpos="9">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="MemRequest.h" open="0" top="0" tabpos="0">
+		<Cursor position="1179" topLine="6" />
+	</File>
+	<File name="NormalDistribution.h" open="0" top="0" tabpos="0">
+		<Cursor position="234" topLine="0" />
+	</File>
+	<File name="PhysicalMemory.cpp" open="0" top="0" tabpos="10">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="PhysicalMemory.h" open="0" top="0" tabpos="11">
+		<Cursor position="0" topLine="1" />
+	</File>
+	<File name="Random.cpp" open="0" top="0" tabpos="6">
+		<Cursor position="367" topLine="0" />
+	</File>
+	<File name="Random.h" open="0" top="0" tabpos="7">
+		<Cursor position="80" topLine="0" />
+	</File>
+	<File name="StreamMemory.cpp" open="0" top="0" tabpos="12">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="StreamMemory.h" open="0" top="0" tabpos="13">
+		<Cursor position="268" topLine="0" />
+	</File>
+	<File name="UniformDistribution.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="242" topLine="0" />
+	</File>
+	<File name="UniformDistribution.h" open="0" top="0" tabpos="0">
+		<Cursor position="187" topLine="0" />
+	</File>
+	<File name="main.cpp" open="0" top="0" tabpos="6">
+		<Cursor position="395" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

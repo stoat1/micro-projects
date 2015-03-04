@@ -1,0 +1,100 @@
+# depslib dependency file v1.0
+1336738532 source:e:\projects\c\cachememory\autoresetevent.cpp
+	"AutoResetEvent.h"
+	"Logger.h"
+
+1336021478 e:\projects\c\cachememory\autoresetevent.h
+	"windows.h"
+	"WinapiException.h"
+	<iostream>
+
+1335800786 e:\projects\c\cachememory\winapiexception.h
+	"windows.h"
+	<stdexcept>
+
+1336266497 e:\projects\c\cachememory\logger.h
+	<ostream>
+	<string>
+	<sstream>
+	<map>
+	<memory>
+	"windows.h"
+
+1335935468 source:e:\projects\c\cachememory\manualresetevent.cpp
+	"ManualResetEvent.h"
+
+1335935912 e:\projects\c\cachememory\manualresetevent.h
+	"windows.h"
+	"WinapiException.h"
+
+1335935332 source:e:\projects\c\cachememory\mutex.cpp
+	"Mutex.h"
+
+1335935324 e:\projects\c\cachememory\mutex.h
+	"windows.h"
+	"WinapiException.h"
+
+1335968768 source:e:\projects\c\cachememory\synchronize.cpp
+	"Synchronize.h"
+	<string>
+
+1335969122 e:\projects\c\cachememory\synchronize.h
+	"windows.h"
+	<stdexcept>
+	"AutoResetEvent.h"
+	"ManualResetEvent.h"
+	"Mutex.h"
+	<memory>
+
+1335804184 source:e:\projects\c\cachememory\winapiexception.cpp
+	"WinapiException.h"
+	<sstream>
+
+1336756964 source:e:\projects\c\cachememory\main.cpp
+	<iostream>
+	"Logger.h"
+	"CachedMemoryTest.h"
+	"CachedMemoryMeasuring.h"
+
+1335540720 e:\projects\c\cachememory\cachedmemorytest.h
+
+1336753500 e:\projects\c\cachememory\cachedmemorymeasuring.h
+
+1336765659 source:e:\projects\c\cachememory\assocsearch.cpp
+	"AssocSearch.h"
+	"windows.h"
+	"process.h"
+	<cassert>
+	"Logger.h"
+
+1336738818 e:\projects\c\cachememory\assocsearch.h
+	<stdexcept>
+	<vector>
+	"WinapiException.h"
+	"windows.h"
+	"Synchronize.h"
+	"AutoResetEvent.h"
+	"ManualResetEvent.h"
+	"Mutex.h"
+	"AssocSearch.cpp"
+
+1336765679 e:\projects\c\cachememory\assocsearch.cpp
+	"AssocSearch.h"
+	"windows.h"
+	"process.h"
+	<cassert>
+	"Logger.h"
+
+1336763217 source:e:\projects\c\cachememory\logger.cpp
+	"Logger.h"
+	<fstream>
+	<memory>
+	<iostream>
+	<fstream>
+	<cassert>
+
+1336765346 source:e:\projects\c\cachememory\tmptrythreads.cpp
+	<iostream>
+	"AssocSearch.h"
+	<vector>
+

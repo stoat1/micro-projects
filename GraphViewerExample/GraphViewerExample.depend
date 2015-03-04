@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1337940908 source:e:\projects\c\graphviewerexample\main.cpp
+	<fstream>
+	<sstream>
+	<cstdlib>
+	<cmath>
+	"Graph.h"
+
+1337936655 e:\projects\c\graphviewer\include\graph.h
+	<ostream>
+	<istream>
+	<vector>
+

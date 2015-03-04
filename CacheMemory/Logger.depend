@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1336151224 source:d:\projects\cachememory\logger\main.cpp
+	<iostream>
+	"Logger.h"
+
+1336152162 d:\projects\cachememory\logger\logger.h
+	<ostream>
+	<string>
+	<sstream>
+	<map>
+	<memory>
+	"windows.h"
+
+1336158804 source:d:\projects\cachememory\logger\logger.cpp
+	"Logger.h"
+	<fstream>
+	<memory>
+	<iostream>
+	<cassert>
+

@@ -1,0 +1,1963 @@
+# depslib dependency file v1.0
+1332642540 source:d:\projects\cachememory\abstractmemory.cpp
+	"AbstractMemory.h"
+	<sstream>
+
+1335516306 d:\projects\cachememory\abstractmemory.h
+	<cstddef>
+	<string>
+
+1336189990 source:d:\projects\cachememory\cachegroup.cpp
+	"CacheGroup.h"
+	<cassert>
+	<algorithm>
+	<functional>
+	<stdexcept>
+	"Logger/Logger.h"
+	"boost/thread.hpp"
+
+1335566518 d:\projects\cachememory\cachegroup.h
+	<vector>
+	<set>
+	<iostream>
+
+1336190748 source:d:\projects\cachememory\cachedmemory.cpp
+	"CachedMemory.h"
+	<cassert>
+	<algorithm>
+	<functional>
+	<iostream>
+	<sstream>
+	<stdexcept>
+
+1336190178 d:\projects\cachememory\cachedmemory.h
+	"AbstractMemory.h"
+	"CacheGroup.h"
+	<vector>
+	<list>
+	<set>
+	<iostream>
+	"Logger/Logger.h"
+
+1336190600 source:d:\projects\cachememory\cachedmemorytest.cpp
+	"CachedMemoryTest.h"
+	"CachedMemory.h"
+	"PhysicalMemory.h"
+	"CountedMemory.h"
+	"Random.h"
+	"Logger/Logger.h"
+	"SegmentedReqsGener.h"
+	"NormalDistribution.h"
+
+1335537120 d:\projects\cachememory\cachedmemorytest.h
+
+1332642540 d:\projects\cachememory\physicalmemory.h
+	"AbstractMemory.h"
+	<vector>
+
+1333465482 d:\projects\cachememory\countedmemory.h
+	"AbstractMemory.h"
+
+1336170138 d:\projects\cachememory\random.h
+
+1336152162 d:\projects\cachememory\logger\logger.h
+	<ostream>
+	<string>
+	<sstream>
+	<map>
+	<memory>
+	"windows.h"
+
+1333465536 source:d:\projects\cachememory\countedmemory.cpp
+	"CountedMemory.h"
+
+1332642540 source:d:\projects\cachememory\physicalmemory.cpp
+	"PhysicalMemory.h"
+
+1336169414 source:d:\projects\cachememory\random.cpp
+	"Random.h"
+	<climits>
+	<cmath>
+
+1332642540 source:d:\projects\cachememory\streammemory.cpp
+	"StreamMemory.h"
+
+1335682646 d:\projects\cachememory\streammemory.h
+	"AbstractMemory.h"
+	<iostream>
+
+1336185948 source:d:\projects\cachememory\uniformdistribution.cpp
+	"UniformDistribution.h"
+
+1336185922 d:\projects\cachememory\uniformdistribution.h
+	"Distribution.h"
+	"Random.h"
+
+1336168926 d:\projects\cachememory\distribution.h
+
+1335555958 source:d:\projects\cachememory\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<cstdlib>
+	<cassert>
+	"StreamMemory.h"
+	"PhysicalMemory.h"
+	"CachedMemory.h"
+	"CountedMemory.h"
+	"NormalDistribution.h"
+	"Random.h"
+	"CachedMemoryTest.h"
+
+1336185986 d:\projects\cachememory\normaldistribution.h
+	"Distribution.h"
+	"UniformDistribution.h"
+	"Random.h"
+
+1336188452 source:d:\projects\cachememory\segmentedreqsgener.cpp
+	"SegmentedReqsGener.h"
+	<cassert>
+
+1336188758 d:\projects\cachememory\segmentedreqsgener.h
+	"RequestGenerator.h"
+	"Distribution.h"
+	"Random.h"
+	<stdexcept>
+	<vector>
+
+1336188424 d:\projects\cachememory\requestgenerator.h
+	"MemRequest.h"
+
+1336190660 d:\projects\cachememory\memrequest.h
+	"AbstractMemory.h"
+	<stdexcept>
+
+1336190536 source:d:\projects\cachememory\logger\logger.cpp
+	"Logger.h"
+	<fstream>
+	<memory>
+	<iostream>
+	<cassert>
+
+1336191096 source:d:\projects\cachememory\normaldistribution.cpp
+	"NormalDistribution.h"
+	<stdexcept>
+	<cmath>
+
+1336740188 source:e:\projects\c\cachememory\abstractmemory.cpp
+	"AbstractMemory.h"
+	<sstream>
+
+1336739820 e:\projects\c\cachememory\abstractmemory.h
+	<cstddef>
+	<string>
+	<ostream>
+	<stdexcept>
+
+1336740112 source:e:\projects\c\cachememory\countedmemory.cpp
+	"CountedMemory.h"
+
+1336739688 e:\projects\c\cachememory\countedmemory.h
+	"AbstractMemory.h"
+
+1336266639 source:e:\projects\c\cachememory\logger\logger.cpp
+	"Logger.h"
+	<fstream>
+	<memory>
+	<iostream>
+	<fstream>
+	<cassert>
+
+1336266497 e:\projects\c\cachememory\logger\logger.h
+	<ostream>
+	<string>
+	<sstream>
+	<map>
+	<memory>
+	"windows.h"
+
+1336194696 source:e:\projects\c\cachememory\normaldistribution.cpp
+	"NormalDistribution.h"
+	<stdexcept>
+	<cmath>
+
+1336189586 e:\projects\c\cachememory\normaldistribution.h
+	"Distribution.h"
+	"UniformDistribution.h"
+	"Random.h"
+
+1336172526 e:\projects\c\cachememory\distribution.h
+
+1336189522 e:\projects\c\cachememory\uniformdistribution.h
+	"Distribution.h"
+	"Random.h"
+
+1336796802 e:\projects\c\cachememory\random.h
+	<stdexcept>
+
+1336740064 source:e:\projects\c\cachememory\physicalmemory.cpp
+	"PhysicalMemory.h"
+
+1336739684 e:\projects\c\cachememory\physicalmemory.h
+	"AbstractMemory.h"
+	<vector>
+
+1336796918 source:e:\projects\c\cachememory\random.cpp
+	"Random.h"
+	<climits>
+	<cmath>
+
+1336740370 source:e:\projects\c\cachememory\segmentedreqsgener.cpp
+	"SegmentedReqsGener.h"
+	<cassert>
+
+1336262329 e:\projects\c\cachememory\segmentedreqsgener.h
+	"RequestGenerator.h"
+	"Distribution.h"
+	"Random.h"
+	<stdexcept>
+	<vector>
+
+1336192024 e:\projects\c\cachememory\requestgenerator.h
+	"MemRequest.h"
+
+1337978345 e:\projects\c\cachememory\memrequest.h
+	<stdexcept>
+	<vector>
+	"AbstractMemory.h"
+	"Random.h"
+
+1336740080 source:e:\projects\c\cachememory\streammemory.cpp
+	"StreamMemory.h"
+
+1336739748 e:\projects\c\cachememory\streammemory.h
+	"AbstractMemory.h"
+	<iostream>
+
+1336189548 source:e:\projects\c\cachememory\uniformdistribution.cpp
+	"UniformDistribution.h"
+
+1337975188 source:e:\projects\c\cachememory\main.cpp
+	<iostream>
+	"Logger.h"
+	"CachedMemoryTest.h"
+	"CachedMemoryMeasuring.h"
+	"ManualTesting.h"
+
+1337402084 e:\projects\c\cachememory\cachedmemory.h
+	"AbstractMemory.h"
+	"CacheGroup.h"
+	<vector>
+	<list>
+	<set>
+	<iostream>
+	"Logger.h"
+
+1337986120 e:\projects\c\cachememory\cachegroup.h
+	<vector>
+	<set>
+	<iostream>
+	"AssocSearch.h"
+	"Logger.h"
+	"AbstractMemory.h"
+
+1335540720 e:\projects\c\cachememory\cachedmemorytest.h
+
+1337985973 source:e:\projects\c\cachememory\cachedmemory.cpp
+	"CachedMemory.h"
+	<cassert>
+	<algorithm>
+	<functional>
+	<iostream>
+	<sstream>
+	<stdexcept>
+
+1337402122 source:e:\projects\c\cachememory\cachedmemorytest.cpp
+	"CachedMemoryTest.h"
+	"CachedMemory.h"
+	"PhysicalMemory.h"
+	"CountedMemory.h"
+	"Random.h"
+	"Logger.h"
+	"NormalDistribution.h"
+	"UniformRequests.h"
+
+1337985793 source:e:\projects\c\cachememory\cachegroup.cpp
+	"CacheGroup.h"
+	<cassert>
+	<algorithm>
+	<functional>
+	<stdexcept>
+	"Logger.h"
+
+1336765680 source:e:\projects\c\cachememory\assocsearch.cpp
+	"AssocSearch.h"
+	"windows.h"
+	"process.h"
+	<cassert>
+	"Logger.h"
+
+1336738820 e:\projects\c\cachememory\assocsearch.h
+	<stdexcept>
+	<vector>
+	"WinapiException.h"
+	"windows.h"
+	"Synchronize.h"
+	"AutoResetEvent.h"
+	"ManualResetEvent.h"
+	"Mutex.h"
+	"AssocSearch.cpp"
+
+1335800786 e:\projects\c\cachememory\winapiexception.h
+	"windows.h"
+	<stdexcept>
+
+1335969122 e:\projects\c\cachememory\synchronize.h
+	"windows.h"
+	<stdexcept>
+	"AutoResetEvent.h"
+	"ManualResetEvent.h"
+	"Mutex.h"
+	<memory>
+
+1336021478 e:\projects\c\cachememory\autoresetevent.h
+	"windows.h"
+	"WinapiException.h"
+	<iostream>
+
+1335935912 e:\projects\c\cachememory\manualresetevent.h
+	"windows.h"
+	"WinapiException.h"
+
+1335935324 e:\projects\c\cachememory\mutex.h
+	"windows.h"
+	"WinapiException.h"
+
+1336765680 e:\projects\c\cachememory\assocsearch.cpp
+	"AssocSearch.h"
+	"windows.h"
+	"process.h"
+	<cassert>
+	"Logger.h"
+
+1336266498 e:\projects\c\cachememory\logger.h
+	<ostream>
+	<string>
+	<sstream>
+	<map>
+	<memory>
+	"windows.h"
+
+1336798608 source:e:\projects\c\cachememory\logger.cpp
+	"Logger.h"
+	<fstream>
+	<memory>
+	<iostream>
+	<fstream>
+	<cassert>
+
+1336736712 source:e:\projects\c\cachememory\pch.h
+
+1335968768 source:e:\projects\c\cachememory\synchronize.cpp
+	"Synchronize.h"
+	<string>
+
+1336738534 source:e:\projects\c\cachememory\autoresetevent.cpp
+	"AutoResetEvent.h"
+	"Logger.h"
+
+1335935468 source:e:\projects\c\cachememory\manualresetevent.cpp
+	"ManualResetEvent.h"
+
+1335935332 source:e:\projects\c\cachememory\mutex.cpp
+	"Mutex.h"
+
+1335804184 source:e:\projects\c\cachememory\winapiexception.cpp
+	"WinapiException.h"
+	<sstream>
+
+1337978358 source:e:\projects\c\cachememory\memrequest.cpp
+	"MemRequest.h"
+
+1337984805 source:e:\projects\c\cachememory\cachedmemorymeasuring.cpp
+	"CachedMemoryMeasuring.h"
+	"PhysicalMemory.h"
+	"CachedMemory.h"
+	"CountedMemory.h"
+	"CategoricalRequests.h"
+	"ParetoRequests.h"
+	"Graph.h"
+	<fstream>
+
+1336753502 e:\projects\c\cachememory\cachedmemorymeasuring.h
+
+1337948339 source:e:\projects\c\cachememory\categoricalrequests.cpp
+	"CategoricalRequests.h"
+	<cstdlib>
+	<cassert>
+	"Logger.h"
+	"NormalDistribution.h"
+
+1337401198 e:\projects\c\cachememory\categoricalrequests.h
+	"RequestGenerator.h"
+	"UniformDistribution.h"
+	<vector>
+	<deque>
+	<set>
+
+1336736588 source:e:\projects\cachememory\abstractmemory.cpp
+	"AbstractMemory.h"
+	<sstream>
+
+1336736220 e:\projects\cachememory\abstractmemory.h
+	<cstddef>
+	<string>
+	<ostream>
+	<stdexcept>
+
+1336761074 source:e:\projects\cachememory\cachegroup.cpp
+	"CacheGroup.h"
+	<cassert>
+	<algorithm>
+	<functional>
+	<stdexcept>
+	"Logger.h"
+
+1336762262 e:\projects\cachememory\cachegroup.h
+	<vector>
+	<set>
+	<iostream>
+	"AssocSearch.h"
+	"Logger.h"
+	"AbstractMemory.h"
+
+1336735220 e:\projects\cachememory\assocsearch.h
+	<stdexcept>
+	<vector>
+	"WinapiException.h"
+	"windows.h"
+	"Synchronize.h"
+	"AutoResetEvent.h"
+	"ManualResetEvent.h"
+	"Mutex.h"
+	"AssocSearch.cpp"
+
+1335797186 e:\projects\cachememory\winapiexception.h
+	"windows.h"
+	<stdexcept>
+
+1335965522 e:\projects\cachememory\synchronize.h
+	"windows.h"
+	<stdexcept>
+	"AutoResetEvent.h"
+	"ManualResetEvent.h"
+	"Mutex.h"
+	<memory>
+
+1336017878 e:\projects\cachememory\autoresetevent.h
+	"windows.h"
+	"WinapiException.h"
+	<iostream>
+
+1335932312 e:\projects\cachememory\manualresetevent.h
+	"windows.h"
+	"WinapiException.h"
+
+1335931724 e:\projects\cachememory\mutex.h
+	"windows.h"
+	"WinapiException.h"
+
+1336762080 e:\projects\cachememory\assocsearch.cpp
+	"AssocSearch.h"
+	"windows.h"
+	"process.h"
+	<cassert>
+	"Logger.h"
+
+1336262898 e:\projects\cachememory\logger.h
+	<ostream>
+	<string>
+	<sstream>
+	<map>
+	<memory>
+	"windows.h"
+
+1336758800 source:e:\projects\cachememory\cachedmemory.cpp
+	"CachedMemory.h"
+	<cassert>
+	<algorithm>
+	<functional>
+	<iostream>
+	<sstream>
+	<stdexcept>
+
+1336736064 e:\projects\cachememory\cachedmemory.h
+	"AbstractMemory.h"
+	"CacheGroup.h"
+	<vector>
+	<list>
+	<set>
+	<iostream>
+	"Logger.h"
+
+1336795060 source:e:\projects\cachememory\cachedmemorymeasuring.cpp
+	"CachedMemoryMeasuring.h"
+	"PhysicalMemory.h"
+	"CachedMemory.h"
+	"CountedMemory.h"
+	"CategoricalRequests.h"
+
+1336749902 e:\projects\cachememory\cachedmemorymeasuring.h
+
+1336736084 e:\projects\cachememory\physicalmemory.h
+	"AbstractMemory.h"
+	<vector>
+
+1336736088 e:\projects\cachememory\countedmemory.h
+	"AbstractMemory.h"
+
+1336794656 e:\projects\cachememory\categoricalrequests.h
+	"RequestGenerator.h"
+	"UniformDistribution.h"
+	<vector>
+	<set>
+
+1336188424 e:\projects\cachememory\requestgenerator.h
+	"MemRequest.h"
+
+1336749304 e:\projects\cachememory\memrequest.h
+	"AbstractMemory.h"
+	<stdexcept>
+	"Random.h"
+
+1336793202 e:\projects\cachememory\random.h
+	<stdexcept>
+
+1336790808 source:e:\projects\cachememory\cachedmemorytest.cpp
+	"CachedMemoryTest.h"
+	"CachedMemory.h"
+	"PhysicalMemory.h"
+	"CountedMemory.h"
+	"Random.h"
+	"Logger.h"
+	"NormalDistribution.h"
+	"UniformRequests.h"
+
+1335537120 e:\projects\cachememory\cachedmemorytest.h
+
+1336258730 e:\projects\cachememory\segmentedreqsgener.h
+	"RequestGenerator.h"
+	"Distribution.h"
+	"Random.h"
+	<stdexcept>
+	<vector>
+
+1336168926 e:\projects\cachememory\distribution.h
+
+1336185986 e:\projects\cachememory\normaldistribution.h
+	"Distribution.h"
+	"UniformDistribution.h"
+	"Random.h"
+
+1336185922 e:\projects\cachememory\uniformdistribution.h
+	"Distribution.h"
+	"Random.h"
+
+1336736512 source:e:\projects\cachememory\countedmemory.cpp
+	"CountedMemory.h"
+
+1336191096 source:e:\projects\cachememory\normaldistribution.cpp
+	"NormalDistribution.h"
+	<stdexcept>
+	<cmath>
+
+1336736464 source:e:\projects\cachememory\physicalmemory.cpp
+	"PhysicalMemory.h"
+
+1336793318 source:e:\projects\cachememory\random.cpp
+	"Random.h"
+	<climits>
+	<cmath>
+
+1336736772 source:e:\projects\cachememory\segmentedreqsgener.cpp
+	"SegmentedReqsGener.h"
+	<cassert>
+
+1336736480 source:e:\projects\cachememory\streammemory.cpp
+	"StreamMemory.h"
+
+1336736148 e:\projects\cachememory\streammemory.h
+	"AbstractMemory.h"
+	<iostream>
+
+1336185948 source:e:\projects\cachememory\uniformdistribution.cpp
+	"UniformDistribution.h"
+
+1336790924 source:e:\projects\cachememory\main.cpp
+	<iostream>
+	"Logger.h"
+	"CachedMemoryTest.h"
+	"CachedMemoryMeasuring.h"
+
+1336795008 source:e:\projects\cachememory\logger.cpp
+	"Logger.h"
+	<fstream>
+	<memory>
+	<iostream>
+	<fstream>
+	<cassert>
+
+1336762080 source:e:\projects\cachememory\assocsearch.cpp
+	"AssocSearch.h"
+	"windows.h"
+	"process.h"
+	<cassert>
+	"Logger.h"
+
+1335965168 source:e:\projects\cachememory\synchronize.cpp
+	"Synchronize.h"
+	<string>
+
+1336734934 source:e:\projects\cachememory\autoresetevent.cpp
+	"AutoResetEvent.h"
+	"Logger.h"
+
+1335931868 source:e:\projects\cachememory\manualresetevent.cpp
+	"ManualResetEvent.h"
+
+1335931732 source:e:\projects\cachememory\mutex.cpp
+	"Mutex.h"
+
+1335800584 source:e:\projects\cachememory\winapiexception.cpp
+	"WinapiException.h"
+	<sstream>
+
+1336748978 source:e:\projects\cachememory\memrequest.cpp
+	"MemRequest.h"
+
+1336790848 e:\projects\cachememory\uniformrequests.h
+	"RequestGenerator.h"
+	"Random.h"
+	<stdexcept>
+
+1336795088 source:e:\projects\cachememory\categoricalrequests.cpp
+	"CategoricalRequests.h"
+	<cstdlib>
+	"Logger.h"
+	"NormalDistribution.h"
+
+1336791516 source:e:\projects\cachememory\uniformrequests.cpp
+	"UniformRequests.h"
+
+1336740188 source:g:\projects\cachememory\abstractmemory.cpp
+	"AbstractMemory.h"
+	<sstream>
+
+1336739820 g:\projects\cachememory\abstractmemory.h
+	<cstddef>
+	<string>
+	<ostream>
+	<stdexcept>
+
+1336765680 source:g:\projects\cachememory\assocsearch.cpp
+	"AssocSearch.h"
+	"windows.h"
+	"process.h"
+	<cassert>
+	"Logger.h"
+
+1336738820 g:\projects\cachememory\assocsearch.h
+	<stdexcept>
+	<vector>
+	"WinapiException.h"
+	"windows.h"
+	"Synchronize.h"
+	"AutoResetEvent.h"
+	"ManualResetEvent.h"
+	"Mutex.h"
+	"AssocSearch.cpp"
+
+1335800786 g:\projects\cachememory\winapiexception.h
+	"windows.h"
+	<stdexcept>
+
+1335969122 g:\projects\cachememory\synchronize.h
+	"windows.h"
+	<stdexcept>
+	"AutoResetEvent.h"
+	"ManualResetEvent.h"
+	"Mutex.h"
+	<memory>
+
+1336021478 g:\projects\cachememory\autoresetevent.h
+	"windows.h"
+	"WinapiException.h"
+	<iostream>
+
+1335935912 g:\projects\cachememory\manualresetevent.h
+	"windows.h"
+	"WinapiException.h"
+
+1335935324 g:\projects\cachememory\mutex.h
+	"windows.h"
+	"WinapiException.h"
+
+1336765680 g:\projects\cachememory\assocsearch.cpp
+	"AssocSearch.h"
+	"windows.h"
+	"process.h"
+	<cassert>
+	"Logger.h"
+
+1336266498 g:\projects\cachememory\logger.h
+	<ostream>
+	<string>
+	<sstream>
+	<map>
+	<memory>
+	"windows.h"
+
+1336738534 source:g:\projects\cachememory\autoresetevent.cpp
+	"AutoResetEvent.h"
+	"Logger.h"
+
+1336764674 source:g:\projects\cachememory\cachegroup.cpp
+	"CacheGroup.h"
+	<cassert>
+	<algorithm>
+	<functional>
+	<stdexcept>
+	"Logger.h"
+
+1337352766 g:\projects\cachememory\cachegroup.h
+	<vector>
+	<set>
+	<iostream>
+	"AssocSearch.h"
+	"Logger.h"
+	"AbstractMemory.h"
+
+1336762400 source:g:\projects\cachememory\cachedmemory.cpp
+	"CachedMemory.h"
+	<cassert>
+	<algorithm>
+	<functional>
+	<iostream>
+	<sstream>
+	<stdexcept>
+
+1336739664 g:\projects\cachememory\cachedmemory.h
+	"AbstractMemory.h"
+	"CacheGroup.h"
+	<vector>
+	<list>
+	<set>
+	<iostream>
+	"Logger.h"
+
+1337353168 source:g:\projects\cachememory\cachedmemorymeasuring.cpp
+	"CachedMemoryMeasuring.h"
+	"PhysicalMemory.h"
+	"CachedMemory.h"
+	"CountedMemory.h"
+	"CategoricalRequests.h"
+	"Graphs/Graph.h"
+	<fstream>
+
+1336753502 g:\projects\cachememory\cachedmemorymeasuring.h
+
+1336739684 g:\projects\cachememory\physicalmemory.h
+	"AbstractMemory.h"
+	<vector>
+
+1336739688 g:\projects\cachememory\countedmemory.h
+	"AbstractMemory.h"
+
+1337355328 g:\projects\cachememory\categoricalrequests.h
+	"RequestGenerator.h"
+	"UniformDistribution.h"
+	<vector>
+	<set>
+
+1336192024 g:\projects\cachememory\requestgenerator.h
+	"MemRequest.h"
+
+1336752904 g:\projects\cachememory\memrequest.h
+	"AbstractMemory.h"
+	<stdexcept>
+	"Random.h"
+
+1336796802 g:\projects\cachememory\random.h
+	<stdexcept>
+
+1336189522 g:\projects\cachememory\uniformdistribution.h
+	"Distribution.h"
+	"Random.h"
+
+1336172526 g:\projects\cachememory\distribution.h
+
+1336794408 source:g:\projects\cachememory\cachedmemorytest.cpp
+	"CachedMemoryTest.h"
+	"CachedMemory.h"
+	"PhysicalMemory.h"
+	"CountedMemory.h"
+	"Random.h"
+	"Logger.h"
+	"NormalDistribution.h"
+	"UniformRequests.h"
+
+1335540720 g:\projects\cachememory\cachedmemorytest.h
+
+1336189586 g:\projects\cachememory\normaldistribution.h
+	"Distribution.h"
+	"UniformDistribution.h"
+	"Random.h"
+
+1336794448 g:\projects\cachememory\uniformrequests.h
+	"RequestGenerator.h"
+	"Random.h"
+	<stdexcept>
+
+1336798706 source:g:\projects\cachememory\categoricalrequests.cpp
+	"CategoricalRequests.h"
+	<cstdlib>
+	"Logger.h"
+	"NormalDistribution.h"
+
+1336740112 source:g:\projects\cachememory\countedmemory.cpp
+	"CountedMemory.h"
+
+1336798608 source:g:\projects\cachememory\logger.cpp
+	"Logger.h"
+	<fstream>
+	<memory>
+	<iostream>
+	<fstream>
+	<cassert>
+
+1335935468 source:g:\projects\cachememory\manualresetevent.cpp
+	"ManualResetEvent.h"
+
+1336752578 source:g:\projects\cachememory\memrequest.cpp
+	"MemRequest.h"
+
+1335935332 source:g:\projects\cachememory\mutex.cpp
+	"Mutex.h"
+
+1336194696 source:g:\projects\cachememory\normaldistribution.cpp
+	"NormalDistribution.h"
+	<stdexcept>
+	<cmath>
+
+1336740064 source:g:\projects\cachememory\physicalmemory.cpp
+	"PhysicalMemory.h"
+
+1336796918 source:g:\projects\cachememory\random.cpp
+	"Random.h"
+	<climits>
+	<cmath>
+
+1336740080 source:g:\projects\cachememory\streammemory.cpp
+	"StreamMemory.h"
+
+1336739748 g:\projects\cachememory\streammemory.h
+	"AbstractMemory.h"
+	<iostream>
+
+1335968768 source:g:\projects\cachememory\synchronize.cpp
+	"Synchronize.h"
+	<string>
+
+1336189548 source:g:\projects\cachememory\uniformdistribution.cpp
+	"UniformDistribution.h"
+
+1336795116 source:g:\projects\cachememory\uniformrequests.cpp
+	"UniformRequests.h"
+
+1335804184 source:g:\projects\cachememory\winapiexception.cpp
+	"WinapiException.h"
+	<sstream>
+
+1337352204 source:g:\projects\cachememory\main.cpp
+	<iostream>
+	"Logger.h"
+	"CachedMemoryTest.h"
+	"CachedMemoryMeasuring.h"
+
+1336794448 e:\projects\c\cachememory\uniformrequests.h
+	"RequestGenerator.h"
+	"Random.h"
+	<stdexcept>
+
+1336795116 source:e:\projects\c\cachememory\uniformrequests.cpp
+	"UniformRequests.h"
+
+1337881426 e:\projects\c\cachememory\graphs\graph.h
+	<ostream>
+	<istream>
+	<vector>
+
+1255804050 e:\projects\3rd_party\sdl\include\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804050 e:\projects\3rd_party\sdl\include\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804050 e:\projects\3rd_party\sdl\include\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1255804064 e:\projects\3rd_party\sdl\include\sdl_config.h
+	"SDL_platform.h"
+	<stdarg.h>
+
+1255804050 e:\projects\3rd_party\sdl\include\sdl_platform.h
+
+1255804050 e:\projects\3rd_party\sdl\include\begin_code.h
+
+1255804050 e:\projects\3rd_party\sdl\include\close_code.h
+
+1255804050 e:\projects\3rd_party\sdl\include\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804050 e:\projects\3rd_party\sdl\include\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804050 e:\projects\3rd_party\sdl\include\sdl_endian.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804050 e:\projects\3rd_party\sdl\include\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804050 e:\projects\3rd_party\sdl\include\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1255804050 e:\projects\3rd_party\sdl\include\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804050 e:\projects\3rd_party\sdl\include\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804050 e:\projects\3rd_party\sdl\include\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804050 e:\projects\3rd_party\sdl\include\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804050 e:\projects\3rd_party\sdl\include\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804050 e:\projects\3rd_party\sdl\include\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804050 e:\projects\3rd_party\sdl\include\sdl_keysym.h
+
+1255804050 e:\projects\3rd_party\sdl\include\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804050 e:\projects\3rd_party\sdl\include\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804050 e:\projects\3rd_party\sdl\include\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804050 e:\projects\3rd_party\sdl\include\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1255804050 e:\projects\3rd_party\sdl\include\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804050 e:\projects\3rd_party\sdl\include\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804050 e:\projects\3rd_party\sdl\include\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1337349328 g:\projects\cachememory\graphs\graph.h
+	<SDL.h>
+	<ostream>
+	<istream>
+	<vector>
+
+1255804050 g:\projects\3rd_party\sdl\include\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804050 g:\projects\3rd_party\sdl\include\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804050 g:\projects\3rd_party\sdl\include\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1255804064 g:\projects\3rd_party\sdl\include\sdl_config.h
+	"SDL_platform.h"
+	<stdarg.h>
+
+1255804050 g:\projects\3rd_party\sdl\include\sdl_platform.h
+
+1255804050 g:\projects\3rd_party\sdl\include\begin_code.h
+
+1255804050 g:\projects\3rd_party\sdl\include\close_code.h
+
+1255804050 g:\projects\3rd_party\sdl\include\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804050 g:\projects\3rd_party\sdl\include\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804050 g:\projects\3rd_party\sdl\include\sdl_endian.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804050 g:\projects\3rd_party\sdl\include\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804050 g:\projects\3rd_party\sdl\include\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1255804050 g:\projects\3rd_party\sdl\include\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804050 g:\projects\3rd_party\sdl\include\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804050 g:\projects\3rd_party\sdl\include\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804050 g:\projects\3rd_party\sdl\include\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804050 g:\projects\3rd_party\sdl\include\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804050 g:\projects\3rd_party\sdl\include\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804050 g:\projects\3rd_party\sdl\include\sdl_keysym.h
+
+1255804050 g:\projects\3rd_party\sdl\include\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804050 g:\projects\3rd_party\sdl\include\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804050 g:\projects\3rd_party\sdl\include\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804050 g:\projects\3rd_party\sdl\include\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1255804050 g:\projects\3rd_party\sdl\include\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804050 g:\projects\3rd_party\sdl\include\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255804050 g:\projects\3rd_party\sdl\include\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1336740188 source:g:\projects\c\cachememory\abstractmemory.cpp
+	"AbstractMemory.h"
+	<sstream>
+
+1336739820 g:\projects\c\cachememory\abstractmemory.h
+	<cstddef>
+	<string>
+	<ostream>
+	<stdexcept>
+
+1336765680 source:g:\projects\c\cachememory\assocsearch.cpp
+	"AssocSearch.h"
+	"windows.h"
+	"process.h"
+	<cassert>
+	"Logger.h"
+
+1336738820 g:\projects\c\cachememory\assocsearch.h
+	<stdexcept>
+	<vector>
+	"WinapiException.h"
+	"windows.h"
+	"Synchronize.h"
+	"AutoResetEvent.h"
+	"ManualResetEvent.h"
+	"Mutex.h"
+	"AssocSearch.cpp"
+
+1335800786 g:\projects\c\cachememory\winapiexception.h
+	"windows.h"
+	<stdexcept>
+
+1335969122 g:\projects\c\cachememory\synchronize.h
+	"windows.h"
+	<stdexcept>
+	"AutoResetEvent.h"
+	"ManualResetEvent.h"
+	"Mutex.h"
+	<memory>
+
+1336021478 g:\projects\c\cachememory\autoresetevent.h
+	"windows.h"
+	"WinapiException.h"
+	<iostream>
+
+1335935912 g:\projects\c\cachememory\manualresetevent.h
+	"windows.h"
+	"WinapiException.h"
+
+1335935324 g:\projects\c\cachememory\mutex.h
+	"windows.h"
+	"WinapiException.h"
+
+1336765680 g:\projects\c\cachememory\assocsearch.cpp
+	"AssocSearch.h"
+	"windows.h"
+	"process.h"
+	<cassert>
+	"Logger.h"
+
+1336266498 g:\projects\c\cachememory\logger.h
+	<ostream>
+	<string>
+	<sstream>
+	<map>
+	<memory>
+	"windows.h"
+
+1336738534 source:g:\projects\c\cachememory\autoresetevent.cpp
+	"AutoResetEvent.h"
+	"Logger.h"
+
+1336764674 source:g:\projects\c\cachememory\cachegroup.cpp
+	"CacheGroup.h"
+	<cassert>
+	<algorithm>
+	<functional>
+	<stdexcept>
+	"Logger.h"
+
+1337352766 g:\projects\c\cachememory\cachegroup.h
+	<vector>
+	<set>
+	<iostream>
+	"AssocSearch.h"
+	"Logger.h"
+	"AbstractMemory.h"
+
+1336762400 source:g:\projects\c\cachememory\cachedmemory.cpp
+	"CachedMemory.h"
+	<cassert>
+	<algorithm>
+	<functional>
+	<iostream>
+	<sstream>
+	<stdexcept>
+
+1336739664 g:\projects\c\cachememory\cachedmemory.h
+	"AbstractMemory.h"
+	"CacheGroup.h"
+	<vector>
+	<list>
+	<set>
+	<iostream>
+	"Logger.h"
+
+1337387178 source:g:\projects\c\cachememory\cachedmemorymeasuring.cpp
+	"CachedMemoryMeasuring.h"
+	"PhysicalMemory.h"
+	"CachedMemory.h"
+	"CountedMemory.h"
+	"CategoricalRequests.h"
+	"Graphs/Graph.h"
+	<fstream>
+
+1336753502 g:\projects\c\cachememory\cachedmemorymeasuring.h
+
+1336739684 g:\projects\c\cachememory\physicalmemory.h
+	"AbstractMemory.h"
+	<vector>
+
+1336739688 g:\projects\c\cachememory\countedmemory.h
+	"AbstractMemory.h"
+
+1337355328 g:\projects\c\cachememory\categoricalrequests.h
+	"RequestGenerator.h"
+	"UniformDistribution.h"
+	<vector>
+	<set>
+
+1336192024 g:\projects\c\cachememory\requestgenerator.h
+	"MemRequest.h"
+
+1336752904 g:\projects\c\cachememory\memrequest.h
+	"AbstractMemory.h"
+	<stdexcept>
+	"Random.h"
+
+1336796802 g:\projects\c\cachememory\random.h
+	<stdexcept>
+
+1336189522 g:\projects\c\cachememory\uniformdistribution.h
+	"Distribution.h"
+	"Random.h"
+
+1336172526 g:\projects\c\cachememory\distribution.h
+
+1337349328 g:\projects\c\cachememory\graphs\graph.h
+	<SDL.h>
+	<ostream>
+	<istream>
+	<vector>
+
+1336794408 source:g:\projects\c\cachememory\cachedmemorytest.cpp
+	"CachedMemoryTest.h"
+	"CachedMemory.h"
+	"PhysicalMemory.h"
+	"CountedMemory.h"
+	"Random.h"
+	"Logger.h"
+	"NormalDistribution.h"
+	"UniformRequests.h"
+
+1335540720 g:\projects\c\cachememory\cachedmemorytest.h
+
+1336189586 g:\projects\c\cachememory\normaldistribution.h
+	"Distribution.h"
+	"UniformDistribution.h"
+	"Random.h"
+
+1336794448 g:\projects\c\cachememory\uniformrequests.h
+	"RequestGenerator.h"
+	"Random.h"
+	<stdexcept>
+
+1337387062 source:g:\projects\c\cachememory\categoricalrequests.cpp
+	"CategoricalRequests.h"
+	<cstdlib>
+	"Logger.h"
+	"NormalDistribution.h"
+
+1336740112 source:g:\projects\c\cachememory\countedmemory.cpp
+	"CountedMemory.h"
+
+1336798608 source:g:\projects\c\cachememory\logger.cpp
+	"Logger.h"
+	<fstream>
+	<memory>
+	<iostream>
+	<fstream>
+	<cassert>
+
+1335935468 source:g:\projects\c\cachememory\manualresetevent.cpp
+	"ManualResetEvent.h"
+
+1336752578 source:g:\projects\c\cachememory\memrequest.cpp
+	"MemRequest.h"
+
+1335935332 source:g:\projects\c\cachememory\mutex.cpp
+	"Mutex.h"
+
+1336194696 source:g:\projects\c\cachememory\normaldistribution.cpp
+	"NormalDistribution.h"
+	<stdexcept>
+	<cmath>
+
+1336740064 source:g:\projects\c\cachememory\physicalmemory.cpp
+	"PhysicalMemory.h"
+
+1336796918 source:g:\projects\c\cachememory\random.cpp
+	"Random.h"
+	<climits>
+	<cmath>
+
+1336740080 source:g:\projects\c\cachememory\streammemory.cpp
+	"StreamMemory.h"
+
+1336739748 g:\projects\c\cachememory\streammemory.h
+	"AbstractMemory.h"
+	<iostream>
+
+1335968768 source:g:\projects\c\cachememory\synchronize.cpp
+	"Synchronize.h"
+	<string>
+
+1336189548 source:g:\projects\c\cachememory\uniformdistribution.cpp
+	"UniformDistribution.h"
+
+1336795116 source:g:\projects\c\cachememory\uniformrequests.cpp
+	"UniformRequests.h"
+
+1335804184 source:g:\projects\c\cachememory\winapiexception.cpp
+	"WinapiException.h"
+	<sstream>
+
+1337352204 source:g:\projects\c\cachememory\main.cpp
+	<iostream>
+	"Logger.h"
+	"CachedMemoryTest.h"
+	"CachedMemoryMeasuring.h"
+
+1336736588 source:d:\projects\c\cachememory\abstractmemory.cpp
+	"AbstractMemory.h"
+	<sstream>
+
+1336736220 d:\projects\c\cachememory\abstractmemory.h
+	<cstddef>
+	<string>
+	<ostream>
+	<stdexcept>
+
+1336762080 source:d:\projects\c\cachememory\assocsearch.cpp
+	"AssocSearch.h"
+	"windows.h"
+	"process.h"
+	<cassert>
+	"Logger.h"
+
+1336735220 d:\projects\c\cachememory\assocsearch.h
+	<stdexcept>
+	<vector>
+	"WinapiException.h"
+	"windows.h"
+	"Synchronize.h"
+	"AutoResetEvent.h"
+	"ManualResetEvent.h"
+	"Mutex.h"
+	"AssocSearch.cpp"
+
+1335797186 d:\projects\c\cachememory\winapiexception.h
+	"windows.h"
+	<stdexcept>
+
+1335965522 d:\projects\c\cachememory\synchronize.h
+	"windows.h"
+	<stdexcept>
+	"AutoResetEvent.h"
+	"ManualResetEvent.h"
+	"Mutex.h"
+	<memory>
+
+1336017878 d:\projects\c\cachememory\autoresetevent.h
+	"windows.h"
+	"WinapiException.h"
+	<iostream>
+
+1335932312 d:\projects\c\cachememory\manualresetevent.h
+	"windows.h"
+	"WinapiException.h"
+
+1335931724 d:\projects\c\cachememory\mutex.h
+	"windows.h"
+	"WinapiException.h"
+
+1336762080 d:\projects\c\cachememory\assocsearch.cpp
+	"AssocSearch.h"
+	"windows.h"
+	"process.h"
+	<cassert>
+	"Logger.h"
+
+1336262898 d:\projects\c\cachememory\logger.h
+	<ostream>
+	<string>
+	<sstream>
+	<map>
+	<memory>
+	"windows.h"
+
+1336734934 source:d:\projects\c\cachememory\autoresetevent.cpp
+	"AutoResetEvent.h"
+	"Logger.h"
+
+1336761074 source:d:\projects\c\cachememory\cachegroup.cpp
+	"CacheGroup.h"
+	<cassert>
+	<algorithm>
+	<functional>
+	<stdexcept>
+	"Logger.h"
+
+1337349166 d:\projects\c\cachememory\cachegroup.h
+	<vector>
+	<set>
+	<iostream>
+	"AssocSearch.h"
+	"Logger.h"
+	"AbstractMemory.h"
+
+1337398466 source:d:\projects\c\cachememory\cachedmemory.cpp
+	"CachedMemory.h"
+	<cassert>
+	<algorithm>
+	<functional>
+	<iostream>
+	<sstream>
+	<stdexcept>
+
+1337398484 d:\projects\c\cachememory\cachedmemory.h
+	"AbstractMemory.h"
+	"CacheGroup.h"
+	<vector>
+	<list>
+	<set>
+	<iostream>
+	"Logger.h"
+
+1337398522 source:d:\projects\c\cachememory\cachedmemorytest.cpp
+	"CachedMemoryTest.h"
+	"CachedMemory.h"
+	"PhysicalMemory.h"
+	"CountedMemory.h"
+	"Random.h"
+	"Logger.h"
+	"NormalDistribution.h"
+	"UniformRequests.h"
+
+1335537120 d:\projects\c\cachememory\cachedmemorytest.h
+
+1336736084 d:\projects\c\cachememory\physicalmemory.h
+	"AbstractMemory.h"
+	<vector>
+
+1336736088 d:\projects\c\cachememory\countedmemory.h
+	"AbstractMemory.h"
+
+1336793202 d:\projects\c\cachememory\random.h
+	<stdexcept>
+
+1336185986 d:\projects\c\cachememory\normaldistribution.h
+	"Distribution.h"
+	"UniformDistribution.h"
+	"Random.h"
+
+1336168926 d:\projects\c\cachememory\distribution.h
+
+1336185922 d:\projects\c\cachememory\uniformdistribution.h
+	"Distribution.h"
+	"Random.h"
+
+1336790848 d:\projects\c\cachememory\uniformrequests.h
+	"RequestGenerator.h"
+	"Random.h"
+	<stdexcept>
+
+1336188424 d:\projects\c\cachememory\requestgenerator.h
+	"MemRequest.h"
+
+1336749304 d:\projects\c\cachememory\memrequest.h
+	"AbstractMemory.h"
+	<stdexcept>
+	"Random.h"
+
+1336736512 source:d:\projects\c\cachememory\countedmemory.cpp
+	"CountedMemory.h"
+
+1336795008 source:d:\projects\c\cachememory\logger.cpp
+	"Logger.h"
+	<fstream>
+	<memory>
+	<iostream>
+	<fstream>
+	<cassert>
+
+1335931868 source:d:\projects\c\cachememory\manualresetevent.cpp
+	"ManualResetEvent.h"
+
+1336748978 source:d:\projects\c\cachememory\memrequest.cpp
+	"MemRequest.h"
+
+1335931732 source:d:\projects\c\cachememory\mutex.cpp
+	"Mutex.h"
+
+1336191096 source:d:\projects\c\cachememory\normaldistribution.cpp
+	"NormalDistribution.h"
+	<stdexcept>
+	<cmath>
+
+1336736464 source:d:\projects\c\cachememory\physicalmemory.cpp
+	"PhysicalMemory.h"
+
+1336793318 source:d:\projects\c\cachememory\random.cpp
+	"Random.h"
+	<climits>
+	<cmath>
+
+1336736480 source:d:\projects\c\cachememory\streammemory.cpp
+	"StreamMemory.h"
+
+1336736148 d:\projects\c\cachememory\streammemory.h
+	"AbstractMemory.h"
+	<iostream>
+
+1335965168 source:d:\projects\c\cachememory\synchronize.cpp
+	"Synchronize.h"
+	<string>
+
+1336185948 source:d:\projects\c\cachememory\uniformdistribution.cpp
+	"UniformDistribution.h"
+
+1336791516 source:d:\projects\c\cachememory\uniformrequests.cpp
+	"UniformRequests.h"
+
+1335800584 source:d:\projects\c\cachememory\winapiexception.cpp
+	"WinapiException.h"
+	<sstream>
+
+1337348604 source:d:\projects\c\cachememory\main.cpp
+	<iostream>
+	"Logger.h"
+	"CachedMemoryTest.h"
+	"CachedMemoryMeasuring.h"
+
+1336749902 d:\projects\c\cachememory\cachedmemorymeasuring.h
+
+1337399988 source:d:\projects\c\cachememory\cachedmemorymeasuring.cpp
+	"CachedMemoryMeasuring.h"
+	"PhysicalMemory.h"
+	"CachedMemory.h"
+	"CountedMemory.h"
+	"CategoricalRequests.h"
+	"Graphs/Graph.h"
+	<fstream>
+
+1337397598 d:\projects\c\cachememory\categoricalrequests.h
+	"RequestGenerator.h"
+	"UniformDistribution.h"
+	<vector>
+	<deque>
+	<set>
+
+1337345728 d:\projects\c\cachememory\graphs\graph.h
+	<SDL.h>
+	<ostream>
+	<istream>
+	<vector>
+
+1255800450 d:\projects\3rd_party\sdl\include\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 d:\projects\3rd_party\sdl\include\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 d:\projects\3rd_party\sdl\include\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1255800464 d:\projects\3rd_party\sdl\include\sdl_config.h
+	"SDL_platform.h"
+	<stdarg.h>
+
+1255800450 d:\projects\3rd_party\sdl\include\sdl_platform.h
+
+1255800450 d:\projects\3rd_party\sdl\include\begin_code.h
+
+1255800450 d:\projects\3rd_party\sdl\include\close_code.h
+
+1255800450 d:\projects\3rd_party\sdl\include\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 d:\projects\3rd_party\sdl\include\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 d:\projects\3rd_party\sdl\include\sdl_endian.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 d:\projects\3rd_party\sdl\include\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 d:\projects\3rd_party\sdl\include\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1255800450 d:\projects\3rd_party\sdl\include\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 d:\projects\3rd_party\sdl\include\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 d:\projects\3rd_party\sdl\include\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 d:\projects\3rd_party\sdl\include\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 d:\projects\3rd_party\sdl\include\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 d:\projects\3rd_party\sdl\include\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 d:\projects\3rd_party\sdl\include\sdl_keysym.h
+
+1255800450 d:\projects\3rd_party\sdl\include\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 d:\projects\3rd_party\sdl\include\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 d:\projects\3rd_party\sdl\include\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 d:\projects\3rd_party\sdl\include\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1255800450 d:\projects\3rd_party\sdl\include\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 d:\projects\3rd_party\sdl\include\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 d:\projects\3rd_party\sdl\include\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1337400094 source:d:\projects\c\cachememory\categoricalrequests.cpp
+	"CategoricalRequests.h"
+	<cstdlib>
+	<cassert>
+	"Logger.h"
+	"NormalDistribution.h"
+
+1337936655 e:\projects\c\graphviewer\include\graph.h
+	<ostream>
+	<istream>
+	<vector>
+
+1337954328 source:e:\projects\c\cachememory\paretodistribution.cpp
+	"ParetoDistribution.h"
+	"UniformDistribution.h"
+	<cmath>
+
+1337954097 e:\projects\c\cachememory\paretodistribution.h
+	"Distribution.h"
+	<stdexcept>
+
+1337954304 source:e:\projects\c\cachememory\paretorequests.cpp
+	<cmath>
+	"ParetoRequests.h"
+
+1337953891 e:\projects\c\cachememory\paretorequests.h
+	<deque>
+	<stdexcept>
+	"RequestGenerator.h"
+	"ParetoDistribution.h"
+
+1337972961 source:e:\projects\c\cachememory\manualtesting.cpp
+	<string>
+	<iostream>
+	<sstream>
+	"PhysicalMemory.h"
+	"CachedMemory.h"
+	"ManualTesting.h"
+
+1337972513 e:\projects\c\cachememory\manualtesting.h
+

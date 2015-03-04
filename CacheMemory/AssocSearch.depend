@@ -1,0 +1,63 @@
+# depslib dependency file v1.0
+1335806624 source:e:\projects\c\cachememory\assocsearch\event.cpp
+	"Event.h"
+
+1335806556 e:\projects\c\cachememory\assocsearch\event.h
+	"windows.h"
+	"WinapiException.h"
+
+1335800784 e:\projects\c\cachememory\assocsearch\winapiexception.h
+	"windows.h"
+	<stdexcept>
+
+1335935330 source:e:\projects\c\cachememory\assocsearch\mutex.cpp
+	"Mutex.h"
+
+1335935322 e:\projects\c\cachememory\assocsearch\mutex.h
+	"windows.h"
+	"WinapiException.h"
+
+1335935533 source:e:\projects\c\cachememory\assocsearch\synchronize.cpp
+	"Synchronize.h"
+	<string>
+
+1335935524 e:\projects\c\cachememory\assocsearch\synchronize.h
+	"windows.h"
+	<stdexcept>
+	"ManualResetEvent.h"
+	"Mutex.h"
+	<memory>
+
+1335804182 source:e:\projects\c\cachememory\assocsearch\winapiexception.cpp
+	"WinapiException.h"
+	<sstream>
+
+1335935362 source:e:\projects\c\cachememory\assocsearch\main.cpp
+	<iostream>
+	<string>
+	<cstdlib>
+	<stdexcept>
+	"Synchronize.h"
+	"windows.h"
+	"process.h"
+	"time.h"
+	"Mutex.h"
+
+1335935546 source:e:\projects\c\cachememory\assocsearch\assocsearch.cpp
+	"AssocSearch.h"
+	"windows.h"
+
+1335935539 e:\projects\c\cachememory\assocsearch\assocsearch.h
+	<stdexcept>
+	<vector>
+	"WinapiException.h"
+	"windows.h"
+	"Synchronize.h"
+
+1335935467 source:e:\projects\c\cachememory\assocsearch\manualresetevent.cpp
+	"ManualResetEvent.h"
+
+1335935499 e:\projects\c\cachememory\assocsearch\manualresetevent.h
+	"windows.h"
+	"WinapiException.h"
+

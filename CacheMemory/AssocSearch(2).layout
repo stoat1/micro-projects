@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="AssocSearch.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="572" topLine="81" />
+	</File>
+	<File name="AssocSearch.h" open="0" top="0" tabpos="2">
+		<Cursor position="2705" topLine="96" />
+	</File>
+	<File name="AutoResetEvent.cpp" open="0" top="0" tabpos="5">
+		<Cursor position="1507" topLine="95" />
+	</File>
+	<File name="AutoResetEvent.h" open="0" top="0" tabpos="0">
+		<Cursor position="217" topLine="0" />
+	</File>
+	<File name="ManualResetEvent.h" open="0" top="0" tabpos="0">
+		<Cursor position="637" topLine="0" />
+	</File>
+	<File name="Mutex.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="201" topLine="0" />
+	</File>
+	<File name="Synchronize.cpp" open="0" top="0" tabpos="5">
+		<Cursor position="1716" topLine="37" />
+	</File>
+	<File name="Synchronize.h" open="0" top="0" tabpos="4">
+		<Cursor position="103" topLine="18" />
+	</File>
+	<File name="TestAssocSearch.h" open="0" top="0" tabpos="5">
+		<Cursor position="531" topLine="21" />
+	</File>
+	<File name="TestSynchronize.h" open="0" top="0" tabpos="4">
+		<Cursor position="513" topLine="19" />
+	</File>
+	<File name="main.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="235" topLine="0" />
+	</File>
+	<File name="..\Logger\Logger.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1558" topLine="48" />
+	</File>
+</CodeBlocks_layout_file>

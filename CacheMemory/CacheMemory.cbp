@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="CacheMemory" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="Utilites\;Utilites\Random\;Utilites\Request\;Utilites\Logger\;Memory\;Memory\Cache\;Main\;" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin\Debug\CacheMemory" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Debug\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-Wextra" />
+					<Add option="-Wall" />
+					<Add option="-g" />
+					<Add option="-D__DEBUG__" />
+					<Add directory="E:\Projects\C\CacheMemory\" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Release\CacheMemory" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="AbstractMemory.cpp">
+			<Option virtualFolder="Memory\" />
+		</Unit>
+		<Unit filename="AbstractMemory.h">
+			<Option virtualFolder="Memory\" />
+		</Unit>
+		<Unit filename="CacheGroup.cpp">
+			<Option virtualFolder="Memory\Cache\" />
+		</Unit>
+		<Unit filename="CacheGroup.h">
+			<Option virtualFolder="Memory\Cache\" />
+		</Unit>
+		<Unit filename="CachedMemory.cpp">
+			<Option virtualFolder="Memory\Cache\" />
+		</Unit>
+		<Unit filename="CachedMemory.h">
+			<Option virtualFolder="Memory\Cache\" />
+		</Unit>
+		<Unit filename="CachedMemoryTest.cpp">
+			<Option virtualFolder="Main\" />
+		</Unit>
+		<Unit filename="CachedMemoryTest.h">
+			<Option virtualFolder="Main\" />
+		</Unit>
+		<Unit filename="CountedMemory.cpp">
+			<Option virtualFolder="Memory\" />
+		</Unit>
+		<Unit filename="CountedMemory.h">
+			<Option virtualFolder="Memory\" />
+		</Unit>
+		<Unit filename="Distribution.h">
+			<Option virtualFolder="Utilites\Random\" />
+		</Unit>
+		<Unit filename="Logger\Logger.h">
+			<Option virtualFolder="Utilites\Logger\" />
+		</Unit>
+		<Unit filename="MemRequest.h">
+			<Option virtualFolder="Utilites\Request\" />
+		</Unit>
+		<Unit filename="NormalDistribution.h">
+			<Option virtualFolder="Utilites\Random\" />
+		</Unit>
+		<Unit filename="PhysicalMemory.cpp">
+			<Option virtualFolder="Memory\" />
+		</Unit>
+		<Unit filename="PhysicalMemory.h">
+			<Option virtualFolder="Memory\" />
+		</Unit>
+		<Unit filename="Random.cpp">
+			<Option virtualFolder="Utilites\Random\" />
+		</Unit>
+		<Unit filename="Random.h">
+			<Option virtualFolder="Utilites\Random\" />
+		</Unit>
+		<Unit filename="RequestBatch.h">
+			<Option virtualFolder="Utilites\Request\" />
+		</Unit>
+		<Unit filename="RequestGenerator.h">
+			<Option virtualFolder="Utilites\Request\" />
+		</Unit>
+		<Unit filename="StreamMemory.cpp">
+			<Option virtualFolder="Memory\" />
+		</Unit>
+		<Unit filename="StreamMemory.h">
+			<Option virtualFolder="Memory\" />
+		</Unit>
+		<Unit filename="UniformDistribution.cpp">
+			<Option virtualFolder="Utilites\Random\" />
+		</Unit>
+		<Unit filename="UniformDistribution.h">
+			<Option virtualFolder="Utilites\Random\" />
+		</Unit>
+		<Unit filename="assiciativeSearch.hpp">
+			<Option virtualFolder="Memory\Cache\" />
+		</Unit>
+		<Unit filename="main.cpp">
+			<Option virtualFolder="Main\" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
